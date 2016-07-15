@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5C1539E1D388E850031D264 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C1539D1D388E850031D264 /* main.m */; };
+		D5C153A11D388E850031D264 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C153A01D388E850031D264 /* AppDelegate.m */; };
+		D5C153A41D388E850031D264 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C153A31D388E850031D264 /* ViewController.m */; };
+		D5C153A71D388E850031D264 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C153A51D388E850031D264 /* Main.storyboard */; };
+		D5C153A91D388E850031D264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5C153A81D388E850031D264 /* Assets.xcassets */; };
+		D5C153AC1D388E850031D264 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C153AA1D388E850031D264 /* LaunchScreen.storyboard */; };
+		D5C153B71D388E850031D264 /* _0160715001_Thread_GCD_SingaltonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C153B61D388E850031D264 /* _0160715001_Thread_GCD_SingaltonTests.m */; };
+		D5C153C21D388E850031D264 /* _0160715001_Thread_GCD_SingaltonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C153C11D388E850031D264 /* _0160715001_Thread_GCD_SingaltonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5C153B31D388E850031D264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5C153911D388E850031D264 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5C153981D388E850031D264;
+			remoteInfo = "20160715001-Thread-GCD-Singalton";
+		};
+		D5C153BE1D388E850031D264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5C153911D388E850031D264 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5C153981D388E850031D264;
+			remoteInfo = "20160715001-Thread-GCD-Singalton";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5C153991D388E850031D264 /* 20160715001-Thread-GCD-Singalton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20160715001-Thread-GCD-Singalton.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C1539D1D388E850031D264 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5C1539F1D388E850031D264 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5C153A01D388E850031D264 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5C153A21D388E850031D264 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D5C153A31D388E850031D264 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D5C153A61D388E850031D264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5C153A81D388E850031D264 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5C153AB1D388E850031D264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5C153AD1D388E850031D264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5C153B21D388E850031D264 /* 20160715001-Thread-GCD-SingaltonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160715001-Thread-GCD-SingaltonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C153B61D388E850031D264 /* _0160715001_Thread_GCD_SingaltonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160715001_Thread_GCD_SingaltonTests.m; sourceTree = "<group>"; };
+		D5C153B81D388E850031D264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5C153BD1D388E850031D264 /* 20160715001-Thread-GCD-SingaltonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160715001-Thread-GCD-SingaltonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C153C11D388E850031D264 /* _0160715001_Thread_GCD_SingaltonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160715001_Thread_GCD_SingaltonUITests.m; sourceTree = "<group>"; };
+		D5C153C31D388E850031D264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5C153961D388E850031D264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C153AF1D388E850031D264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C153BA1D388E850031D264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5C153901D388E850031D264 = {
+			isa = PBXGroup;
+			children = (
+				D5C1539B1D388E850031D264 /* 20160715001-Thread-GCD-Singalton */,
+				D5C153B51D388E850031D264 /* 20160715001-Thread-GCD-SingaltonTests */,
+				D5C153C01D388E850031D264 /* 20160715001-Thread-GCD-SingaltonUITests */,
+				D5C1539A1D388E850031D264 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5C1539A1D388E850031D264 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5C153991D388E850031D264 /* 20160715001-Thread-GCD-Singalton.app */,
+				D5C153B21D388E850031D264 /* 20160715001-Thread-GCD-SingaltonTests.xctest */,
+				D5C153BD1D388E850031D264 /* 20160715001-Thread-GCD-SingaltonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5C1539B1D388E850031D264 /* 20160715001-Thread-GCD-Singalton */ = {
+			isa = PBXGroup;
+			children = (
+				D5C1539F1D388E850031D264 /* AppDelegate.h */,
+				D5C153A01D388E850031D264 /* AppDelegate.m */,
+				D5C153A21D388E850031D264 /* ViewController.h */,
+				D5C153A31D388E850031D264 /* ViewController.m */,
+				D5C153A51D388E850031D264 /* Main.storyboard */,
+				D5C153A81D388E850031D264 /* Assets.xcassets */,
+				D5C153AA1D388E850031D264 /* LaunchScreen.storyboard */,
+				D5C153AD1D388E850031D264 /* Info.plist */,
+				D5C1539C1D388E850031D264 /* Supporting Files */,
+			);
+			path = "20160715001-Thread-GCD-Singalton";
+			sourceTree = "<group>";
+		};
+		D5C1539C1D388E850031D264 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5C1539D1D388E850031D264 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5C153B51D388E850031D264 /* 20160715001-Thread-GCD-SingaltonTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5C153B61D388E850031D264 /* _0160715001_Thread_GCD_SingaltonTests.m */,
+				D5C153B81D388E850031D264 /* Info.plist */,
+			);
+			path = "20160715001-Thread-GCD-SingaltonTests";
+			sourceTree = "<group>";
+		};
+		D5C153C01D388E850031D264 /* 20160715001-Thread-GCD-SingaltonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5C153C11D388E850031D264 /* _0160715001_Thread_GCD_SingaltonUITests.m */,
+				D5C153C31D388E850031D264 /* Info.plist */,
+			);
+			path = "20160715001-Thread-GCD-SingaltonUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5C153981D388E850031D264 /* 20160715001-Thread-GCD-Singalton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5C153C61D388E850031D264 /* Build configuration list for PBXNativeTarget "20160715001-Thread-GCD-Singalton" */;
+			buildPhases = (
+				D5C153951D388E850031D264 /* Sources */,
+				D5C153961D388E850031D264 /* Frameworks */,
+				D5C153971D388E850031D264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20160715001-Thread-GCD-Singalton";
+			productName = "20160715001-Thread-GCD-Singalton";
+			productReference = D5C153991D388E850031D264 /* 20160715001-Thread-GCD-Singalton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5C153B11D388E850031D264 /* 20160715001-Thread-GCD-SingaltonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5C153C91D388E850031D264 /* Build configuration list for PBXNativeTarget "20160715001-Thread-GCD-SingaltonTests" */;
+			buildPhases = (
+				D5C153AE1D388E850031D264 /* Sources */,
+				D5C153AF1D388E850031D264 /* Frameworks */,
+				D5C153B01D388E850031D264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5C153B41D388E850031D264 /* PBXTargetDependency */,
+			);
+			name = "20160715001-Thread-GCD-SingaltonTests";
+			productName = "20160715001-Thread-GCD-SingaltonTests";
+			productReference = D5C153B21D388E850031D264 /* 20160715001-Thread-GCD-SingaltonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5C153BC1D388E850031D264 /* 20160715001-Thread-GCD-SingaltonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5C153CC1D388E850031D264 /* Build configuration list for PBXNativeTarget "20160715001-Thread-GCD-SingaltonUITests" */;
+			buildPhases = (
+				D5C153B91D388E850031D264 /* Sources */,
+				D5C153BA1D388E850031D264 /* Frameworks */,
+				D5C153BB1D388E850031D264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5C153BF1D388E850031D264 /* PBXTargetDependency */,
+			);
+			name = "20160715001-Thread-GCD-SingaltonUITests";
+			productName = "20160715001-Thread-GCD-SingaltonUITests";
+			productReference = D5C153BD1D388E850031D264 /* 20160715001-Thread-GCD-SingaltonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5C153911D388E850031D264 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Rainer;
+				TargetAttributes = {
+					D5C153981D388E850031D264 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D5C153B11D388E850031D264 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D5C153981D388E850031D264;
+					};
+					D5C153BC1D388E850031D264 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D5C153981D388E850031D264;
+					};
+				};
+			};
+			buildConfigurationList = D5C153941D388E850031D264 /* Build configuration list for PBXProject "20160715001-Thread-GCD-Singalton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5C153901D388E850031D264;
+			productRefGroup = D5C1539A1D388E850031D264 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5C153981D388E850031D264 /* 20160715001-Thread-GCD-Singalton */,
+				D5C153B11D388E850031D264 /* 20160715001-Thread-GCD-SingaltonTests */,
+				D5C153BC1D388E850031D264 /* 20160715001-Thread-GCD-SingaltonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5C153971D388E850031D264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C153AC1D388E850031D264 /* LaunchScreen.storyboard in Resources */,
+				D5C153A91D388E850031D264 /* Assets.xcassets in Resources */,
+				D5C153A71D388E850031D264 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C153B01D388E850031D264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C153BB1D388E850031D264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5C153951D388E850031D264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C153A41D388E850031D264 /* ViewController.m in Sources */,
+				D5C153A11D388E850031D264 /* AppDelegate.m in Sources */,
+				D5C1539E1D388E850031D264 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C153AE1D388E850031D264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C153B71D388E850031D264 /* _0160715001_Thread_GCD_SingaltonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C153B91D388E850031D264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C153C21D388E850031D264 /* _0160715001_Thread_GCD_SingaltonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5C153B41D388E850031D264 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5C153981D388E850031D264 /* 20160715001-Thread-GCD-Singalton */;
+			targetProxy = D5C153B31D388E850031D264 /* PBXContainerItemProxy */;
+		};
+		D5C153BF1D388E850031D264 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5C153981D388E850031D264 /* 20160715001-Thread-GCD-Singalton */;
+			targetProxy = D5C153BE1D388E850031D264 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5C153A51D388E850031D264 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5C153A61D388E850031D264 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5C153AA1D388E850031D264 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5C153AB1D388E850031D264 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5C153C41D388E850031D264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D5C153C51D388E850031D264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5C153C71D388E850031D264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "20160715001-Thread-GCD-Singalton/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160715001-Thread-GCD-Singalton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D5C153C81D388E850031D264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "20160715001-Thread-GCD-Singalton/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160715001-Thread-GCD-Singalton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D5C153CA1D388E850031D264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "20160715001-Thread-GCD-SingaltonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160715001-Thread-GCD-SingaltonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20160715001-Thread-GCD-Singalton.app/20160715001-Thread-GCD-Singalton";
+			};
+			name = Debug;
+		};
+		D5C153CB1D388E850031D264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "20160715001-Thread-GCD-SingaltonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160715001-Thread-GCD-SingaltonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20160715001-Thread-GCD-Singalton.app/20160715001-Thread-GCD-Singalton";
+			};
+			name = Release;
+		};
+		D5C153CD1D388E850031D264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "20160715001-Thread-GCD-SingaltonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160715001-Thread-GCD-SingaltonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "20160715001-Thread-GCD-Singalton";
+			};
+			name = Debug;
+		};
+		D5C153CE1D388E850031D264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "20160715001-Thread-GCD-SingaltonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160715001-Thread-GCD-SingaltonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "20160715001-Thread-GCD-Singalton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5C153941D388E850031D264 /* Build configuration list for PBXProject "20160715001-Thread-GCD-Singalton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5C153C41D388E850031D264 /* Debug */,
+				D5C153C51D388E850031D264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5C153C61D388E850031D264 /* Build configuration list for PBXNativeTarget "20160715001-Thread-GCD-Singalton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5C153C71D388E850031D264 /* Debug */,
+				D5C153C81D388E850031D264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5C153C91D388E850031D264 /* Build configuration list for PBXNativeTarget "20160715001-Thread-GCD-SingaltonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5C153CA1D388E850031D264 /* Debug */,
+				D5C153CB1D388E850031D264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5C153CC1D388E850031D264 /* Build configuration list for PBXNativeTarget "20160715001-Thread-GCD-SingaltonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5C153CD1D388E850031D264 /* Debug */,
+				D5C153CE1D388E850031D264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5C153911D388E850031D264 /* Project object */;
+}
